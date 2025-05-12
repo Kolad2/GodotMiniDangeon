@@ -1,12 +1,4 @@
-extends TileMapLayer
+class_name Room extends Node2D
 
-class_name Room
-
-var building: Building
-var z_layer: int:
-	get():
-		return self.z_index
-
-
-func get_floor():
-	return self.z_index
+func _ready():
+	self.add_to_group("navigation_group")

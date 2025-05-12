@@ -5,7 +5,6 @@ class_name Building
 var floors = []
 
 func _ready() -> void:
-	var tile_set = preload("uid://d2ki4qat4ap4d")
 	for child in self.get_children():
 		if child is Room:
 			var floor_num = child.get_floor()

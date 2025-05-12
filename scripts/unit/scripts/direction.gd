@@ -12,6 +12,9 @@ enum ID {
 const TAN_22_5 = 0.41421356237
 @export var id: ID = ID.NULL
 
+#func _init():
+	#self = self.NULL
+
 static func _create_direction(dir_id: ID) -> Direction:
 	var dir = Direction.new()
 	dir.id = dir_id
@@ -49,6 +52,11 @@ static func from_vector_x4(v: Vector2):
 			return Direction.DOWN
 		else:
 			return Direction.TOP
+
+#@warning_ignore("native_method_override")
+#func duplicate(subresources: bool = false) -> Resource:
+	#return Direction.NULL  # Все "копии" становятся NULL
+
 
 static var NULL: Direction = _create_direction(ID.NULL)
 static var TOP: Direction = _create_direction(ID.TOP)
