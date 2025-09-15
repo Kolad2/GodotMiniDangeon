@@ -1,13 +1,13 @@
 [gd_scene load_steps=22 format=3 uid="uid://blmg1u77e1lwj"]
 
-[ext_resource type="Script" uid="uid://cghquyrrr40wg" path="res://scripts/unit/scripts/unit.gd" id="1_ctlx5"]
+[ext_resource type="Script" uid="uid://cghquyrrr40wg" path="res://scripts/entities/unit/scripts/unit.gd" id="1_ctlx5"]
 [ext_resource type="SpriteFrames" uid="uid://c41hij7wpskux" path="res://resources/HeroSprite.tres" id="2_a6wtq"]
 [ext_resource type="Shape2D" uid="uid://cenyeeg2pyesd" path="res://resources/HeroShape.tres" id="3_51lde"]
-[ext_resource type="Script" uid="uid://cp0tvxramwng0" path="res://scripts/unit/scripts/unit_sprite.gd" id="3_ctlx5"]
-[ext_resource type="Script" uid="uid://oujt7tuc6m5m" path="res://scripts/unit/scripts/unit_animation_player.gd" id="4_51lde"]
-[ext_resource type="Script" uid="uid://bjs2vo47qy3cx" path="res://scripts/unit/scripts/unit_navigation_agent.gd" id="6_cnnfv"]
-[ext_resource type="Script" uid="uid://dsajuhcmwwgrr" path="res://scripts/unit/scripts/hitbox.gd" id="7_me26p"]
-[ext_resource type="Script" uid="uid://c3wqqylcl1gj4" path="res://scripts/unit/scripts/damage_agent.gd" id="7_yln21"]
+[ext_resource type="Script" uid="uid://cp0tvxramwng0" path="res://scripts/entities/unit/scripts/unit_sprite.gd" id="3_ctlx5"]
+[ext_resource type="Script" uid="uid://oujt7tuc6m5m" path="res://scripts/entities/unit/scripts/unit_animation_player.gd" id="4_51lde"]
+[ext_resource type="Script" uid="uid://bjs2vo47qy3cx" path="res://scripts/entities/unit/scripts/unit_navigation_agent.gd" id="6_cnnfv"]
+[ext_resource type="Script" uid="uid://dsajuhcmwwgrr" path="res://scripts/entities/unit/scripts/hitbox.gd" id="7_me26p"]
+[ext_resource type="Script" uid="uid://c3wqqylcl1gj4" path="res://scripts/entities/unit/scripts/damage_agent.gd" id="7_yln21"]
 
 [sub_resource type="Animation" id="Animation_yln21"]
 length = 0.8

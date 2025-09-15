@@ -1,10 +1,10 @@
 [gd_scene load_steps=7 format=4 uid="uid://bu444ssq4roxb"]
 
 [ext_resource type="TileSet" uid="uid://cdpn6jwb8hbqc" path="res://dangeon_tile_set.tres" id="1_80nbo"]
-[ext_resource type="Script" uid="uid://bb0mbalpshrkc" path="res://scripts/room/room.gd" id="1_fc0e3"]
+[ext_resource type="Script" uid="uid://bb0mbalpshrkc" path="res://scripts/entities/room/room.gd" id="1_fc0e3"]
 [ext_resource type="PackedScene" uid="uid://blmg1u77e1lwj" path="res://SavedScenes/unit.tscn" id="2_e2o6t"]
 [ext_resource type="SpriteFrames" uid="uid://cv7f7153o200m" path="res://resources/goblin_sprites.tres" id="3_feb5d"]
-[ext_resource type="Script" uid="uid://cy1trbvug2rjx" path="res://scripts/unit/scripts/Hero.gd" id="4_7jktm"]
+[ext_resource type="Script" uid="uid://cy1trbvug2rjx" path="res://scripts/entities/unit/scripts/Hero.gd" id="4_7jktm"]
 
 [sub_resource type="NavigationPolygon" id="NavigationPolygon_feb5d"]
 vertices = PackedVector2Array(284, -2, 284, 152, -30, 152, -28, 0, -30, 0, -28, -2, 340, 208, 396.188, 231.961, -145.047, 231.031, -84, 208, 399.789, -127.93, 340, -88, -145.938, -126.063, -84, -88)
