@@ -1,0 +1,62 @@
+[gd_scene load_steps=2 format=3 uid="uid://dp8kbum8ec4jm"]
+
+[ext_resource type="Script" uid="uid://4odllvym4qsa" path="res://scripts/ui/scripts/menu_multiplayer.gd" id="1_06td3"]
+
+[node name="MultiplayerMenu" type="CanvasLayer"]
+physics_interpolation_mode = 2
+scale = Vector2(0.984208, 1)
+transform = Transform2D(0.984208, 0, 0, 1, 0, 0)
+script = ExtResource("1_06td3")
+metadata/_custom_type_script = "uid://4odllvym4qsa"
+
+[node name="HostGame" type="Button" parent="."]
+top_level = true
+offset_left = 324.681
+offset_top = 256.0
+offset_right = 494.681
+offset_bottom = 304.0
+text = "Host Game"
+
+[node name="JoinGame" type="Button" parent="."]
+top_level = true
+offset_left = 324.681
+offset_top = 328.0
+offset_right = 494.681
+offset_bottom = 376.0
+text = "Join Game"
+
+[node name="Return" type="Button" parent="."]
+top_level = true
+offset_left = 324.681
+offset_top = 400.0
+offset_right = 494.681
+offset_bottom = 448.0
+text = "Return
+"
+
+[node name="ConnectionLog" type="TextEdit" parent="."]
+top_level = true
+offset_left = 519.337
+offset_top = 192.0
+offset_right = 932.337
+offset_bottom = 444.0
+scale = Vector2(0.945827, 1.01425)
+placeholder_text = "Connection Log"
+editable = false
+
+[node name="Nickname" type="LineEdit" parent="."]
+top_level = true
+offset_left = 324.337
+offset_top = 192.0
+offset_right = 495.337
+offset_bottom = 240.0
+placeholder_text = "Nickname"
+
+[node name="LNickname" type="Label" parent="."]
+offset_left = 211.337
+offset_top = 192.0
+offset_right = 317.337
+offset_bottom = 240.0
+text = "Nickname:"
+horizontal_alignment = 2
+vertical_alignment = 1
