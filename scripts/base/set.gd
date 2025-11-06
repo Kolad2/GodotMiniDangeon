@@ -28,4 +28,22 @@ func clear() -> void:
 # Возвращает массив элементов (для итерации)
 func to_array() -> Array:
 	return _elements.keys()
-	
+
+# --- Методы итератора ---
+
+# Инициализация итератора
+func _iter_init(arg) -> bool:
+	var keys: Array = _elements.keys()
+	if keys.is_empty():
+		return false
+	arg[0] = [0, keys]
+	return true
+
+# Переход к следующему элементу
+func _iter_next(arg) -> bool:
+	arg[0][0] += 1
+	return arg[0][0] < arg[0][1].size()
+
+# Получение текущего элемента
+func _iter_get(state):
+	return state[1][state[0]]

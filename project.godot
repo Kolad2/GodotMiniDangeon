@@ -17,7 +17,12 @@ config/icon="res://icon.svg"
 
 [autoload]
 
-connection="*res://scripts/network/client/enet_client.gd"
+event_bus="*res://scripts/base/event_bus.gd"
+server="*res://scripts/network/server/server.gd"
+client="*res://scripts/network/client/client.gd"
+communicator="*res://scripts/network/remoute_communicator.gd"
+launch="*res://scripts/launch/main.gd"
+menu="*res://scripts/ui/menu/menu_manager.gd"
 
 [editor]
 

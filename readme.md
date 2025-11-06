@@ -7,3 +7,11 @@ git config --global user.email "you@example.com"
 git config --global user.name "Your Name"
 Сохранить учетные данные навсегда (не рекомендуется для токенов)
 git config --global credential.helper store 
+
+Клиент
+Глобальная шина событий
+Autoload EventBus
+events:
+	"connected_to_lobby" - 
+	клиент получил сообщение, что сервер подсоеднил игрока к лобби,
+	сигнал содержит информоцию о лобби.

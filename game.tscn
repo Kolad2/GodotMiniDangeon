@@ -1,7 +1,0 @@
-[gd_scene load_steps=2 format=3 uid="uid://bu444ssq4roxb"]
-
-[ext_resource type="PackedScene" uid="uid://dp8kbum8ec4jm" path="res://scripts/ui/menu_multiplayer.tscn" id="1_80nbo"]
-
-[node name="Game" type="Node2D"]
-
-[node name="MultiplayerMenu" parent="." instance=ExtResource("1_80nbo")]
