@@ -1,0 +1,34 @@
+[gd_scene load_steps=3 format=3 uid="uid://bnx5uj3ukcxxk"]
+
+[ext_resource type="Script" uid="uid://m2aggwayjig0" path="res://scripts/ui/menu/lobby/menu_lobby.gd" id="1_vmlef"]
+[ext_resource type="Theme" uid="uid://cb3i0vav2w46u" path="res://resources/themes/theme_menu.tres" id="2_8w1xf"]
+
+[node name="MenuLobby" type="CanvasLayer"]
+physics_interpolation_mode = 2
+script = ExtResource("1_vmlef")
+metadata/_custom_type_script = "uid://m2aggwayjig0"
+
+[node name="ConnectionLog" type="TextEdit" parent="."]
+offset_left = 532.0
+offset_top = 212.0
+offset_right = 925.0
+offset_bottom = 427.0
+theme = ExtResource("2_8w1xf")
+placeholder_text = "Lobby"
+editable = false
+
+[node name="ChatInput" type="LineEdit" parent="."]
+offset_left = 532.0
+offset_top = 436.0
+offset_right = 924.0
+offset_bottom = 467.0
+theme = ExtResource("2_8w1xf")
+keep_editing_on_text_submit = true
+
+[node name="Return" type="Button" parent="."]
+offset_left = 536.0
+offset_top = 488.0
+offset_right = 696.0
+offset_bottom = 536.0
+theme = ExtResource("2_8w1xf")
+text = "Return"
